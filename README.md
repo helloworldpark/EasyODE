@@ -44,7 +44,7 @@ freeOutputHeader(&output);
 
 ## Explanation
 This project aims to solve all kinds of ODEs, so it **could** be slower than other codes. In other words, it is not for any practical use, rather for hobby.
-Every ODE can be expressed in a form of vector. It may or may not involve matrices, but at least it has the form *Y' = f(t, Y)*, where *Y* stands for a vector of *n* components. From this point of view, the ODE solver of this project uses vectors, which are in fact an array of ```double```. It is defined as the structure ```vec```.
+Every ODE can be expressed in a form of vector. It may or may not involve matrices, but at least it has the form *Y' = f(t, Y)*, where *Y* stands for a vector of *n* components. From this point of view, the ODE solver of this project uses vector, which is in fact an array of ```double```. It is defined as the structure ```vec```.
 ```C
 typedef struct _vec {
     unsigned int length;
