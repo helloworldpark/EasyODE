@@ -39,7 +39,7 @@ fileReport(input, output, "predatorPrey");
 freeInputHeader(&input);
 freeOutputHeader(&output);
 ```
-##### 7. You can visualize the results.
+##### 7. You can also visualize the results by using graphing tools(used gnuplot).
 ![Predator-Prey](https://github.com/helloworldpark/helloworldpark.github.com/blob/master/images/20161216_graph03.png)
 
 ## Explanation
